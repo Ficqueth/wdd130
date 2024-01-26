@@ -60,7 +60,7 @@ body {
 
 .hero article {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(29, 70, 132, 0.7); 
     width: 80%;
     max-width: 100%;
     top: 50%; 
@@ -74,4 +74,11 @@ body {
     margin-left: 20px;
     width: 30%;
     padding: 20px;
+}
+
+section img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100%;
+    height: auto;
 }
