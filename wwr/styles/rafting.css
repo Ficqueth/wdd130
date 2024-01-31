@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&family=Roboto:ital,wght@1,100&display=swap');
 
 :root {
-    --primary-color: #7f7eff;
+    --primary-color: #5252ee;
     --secondary-color: #a390e4;
     --accent1-color: #c69dd2;
     --accent2-color: #cc8b8c;
@@ -164,6 +164,7 @@ section.adventures figcaption {
 }
 
 footer {
+    color: white;  /* Updated to set the text color to white */
     text-align: center;
     margin: 0;
     display: flex;
