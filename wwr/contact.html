@@ -34,17 +34,20 @@
         <div class="right-column">
             <section class="contact-form">
                 <form>
-                    <label for="name">Name:</label>
+                    <label for="name">First Name:</label>
                     <input type="text" id="name" name="name" required>
                     <label for="useremail">Email:</label>
                     <input type="email" id="useremail" name="useremail">
                     <div class="form-item column1">
                         <label for="purpose">What is your the purpose ?</label>
-                        <select id="purpose" name="purpose">
-                            <option value="general">General Inquiry</option>
-                            <option value="reservation">Reservation Question</option>
-                            <option value="suggestion">Website Suggestion</option>
-                        </select>
+                        <div class="radio-buttons">
+                            <label for="general">General Inquiry</label><br>
+                            <input type="radio" id="general" name="purpose" value="general" checked>
+                            <label for="reservation">Reservation Question</label><br>
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="suggestion">Website Suggestion</label><br>
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        </div>
                     </div>
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>

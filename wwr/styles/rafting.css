@@ -262,3 +262,22 @@ section.adventures figcaption {
     font-weight: bold;
     font-size: 1.2em;
 }
+
+.radio-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1px; /* Adjust the gap between inputs and labels */
+}
+
+.radio-buttons input[type="radio"] {
+    margin-right: 5px; /* Adjust the spacing between radio buttons and labels */
+}
+
+.radio-buttons label {
+    font-size: 0.8em;
+}
+
+
+
+
+
