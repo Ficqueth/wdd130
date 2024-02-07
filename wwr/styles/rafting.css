@@ -13,11 +13,15 @@
     --nav-link-color: #ecf0f1;
     --nav-hover-link-color: #bdc3c7;
     --nav-hover-background-color: #2c3e50;
-  }
+}
 
-  h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+h1 {
+    text-align: center;
 }
 
 p {
@@ -28,10 +32,10 @@ p {
 header {
     background-color: var(--nav-background-color);
     padding: 10px 20px;
-    display : grid;
+    display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
-    align-items : center;
+    align-items: center;
 }
 
 body {
@@ -39,7 +43,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-  }
+}
 
 nav {
     display: flex;
@@ -49,10 +53,118 @@ nav {
 }
 
 nav a {
-    color: white;  /* Updated to set the text color to white */
+    color: white;
     text-decoration: none;
     padding: 10px;
     transition: color 0.3s ease-in-out;
+}
+
+.container {
+    display: flex;
+    margin: 0 0;
+    max-width: 1200px;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.map {
+    margin-bottom: 20px;
+}
+
+.employee-profiles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.employee-profiles img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.employee-profile p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #449d44;
+}
+
+.sociallinks a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-background-color);
+}
+
+select {
+    padding: 0.5rem;
+}
+
+.left-column h4 {
+    display: inline;
+    margin-right: 5px;
+}
+
+.form-item2 {
+    display: flex;
+    align-items: center;
+}
+
+#message {
+    height: 150px;
+    resize: vertical;
 }
 
 .hero {
@@ -63,26 +175,26 @@ nav a {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
 
 .hero h1 {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     text-align: center;
-    top: 20%; 
-    left: 50%; 
+    top: 20%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
 
 .hero article {
     position: absolute;
-    background-color: rgba(29, 70, 132, 0.7); 
+    background-color: rgba(29, 70, 132, 0.7);
     width: 80%;
     max-width: 100%;
-    top: 50%; 
-    left: 50%; 
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
@@ -130,11 +242,10 @@ section.adventures h2 {
     text-align: center;
 }
 
-
 section.adventures figure {
     position: relative;
-    flex: 0 0 calc(25% - 20px); 
-    margin-bottom: 0px; 
+    flex: 0 0 calc(25% - 20px);
+    margin-bottom: 0px;
     text-align: center;
 }
 
@@ -150,25 +261,4 @@ section.adventures figcaption {
     color: var(--primary-color);
     font-weight: bold;
     font-size: 1.2em;
-}
-
-.sociallinks a {
-    text-decoration: none;
-    margin-left: 10px;
-}
-
-.sociallinks {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-footer {
-    color: white;  /* Updated to set the text color to white */
-    text-align: center;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--nav-background-color);
 }
