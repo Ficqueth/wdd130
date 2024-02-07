@@ -132,6 +132,10 @@ button:hover {
     margin-left: 10px;
 }
 
+.copyright a{
+    color: white;
+}
+
 .sociallinks {
     display: flex;
     justify-content: flex-end;
