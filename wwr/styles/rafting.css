@@ -281,6 +281,60 @@ section.adventures figcaption {
     font-size: 0.8em;
 }
 
+.trip {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.trip-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.trip-image {
+    flex: 1;
+}
+
+.trip-table th {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.trip-table table {
+    margin-bottom: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.call-to-action {
+    text-align: center; /* Center align the content */
+}
+
+.centered-content {
+    display: inline-block; /* Make content center horizontally */
+}
+
+
+
 
 
 
