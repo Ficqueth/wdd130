@@ -286,11 +286,11 @@ section.adventures figcaption {
 }
 
 .radio-buttons input[type="radio"] {
-    margin-right: 5px; 
+    margin-right: 100px; 
 }
 
 .radio-buttons label {
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 .trip {
