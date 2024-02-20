@@ -161,6 +161,18 @@ select {
     margin-right: 5px;
 }
 
+.newsletter .form-item {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; 
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.newsletter label {
+    text-align: right;
+}
+
 .form-item2 {
     display: flex;
     align-items: center;
@@ -326,16 +338,50 @@ section.adventures figcaption {
 }
 
 .call-to-action {
-    text-align: center; /* Center align the content */
+    text-align: center; 
 }
 
 .centered-content {
-    display: inline-block; /* Make content center horizontally */
+    display: inline-block; 
 }
 
+.newsletter {
+    text-align: center; 
+}
 
+.newsletter input {
+    width: 30%;
+}
+input {
+    width:60%;
+}
 
+button {
+    width: 50%; 
+    align-self: center;
+}
 
+.hero .hero-image {
+    width: auto; 
+    height: 600px; 
+}
 
+section.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-item p {
+    order:2;
+}
+
+.grid-item h3 {
+    order: 1;
+} 
 
